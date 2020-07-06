@@ -1,4 +1,4 @@
-# Julia version of SketchyCGAL 
+# SketchyCGAL 
 Convert Matlab code from https://github.com/alpyurtsever/SketchyCGAL to Julia
 # Usage
 See file test_SketchyCGAL.ipynb
