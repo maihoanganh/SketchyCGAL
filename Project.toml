@@ -1,7 +1,7 @@
 name = "SketchyCGAL"
-uuid = "8d9e00f7-cecc-4793-8b3e-56b6af0f38ce"
+uuid = "b47e9d54-75b6-440c-8f26-ba88c971f681"
 authors = ["Ngoc Hoang Anh Mai <maihoanganh6@gmail.com>"]
 version = "0.1.0"
 
 [deps]
-Example = "7876af07-990d-54b4-ab0e-23690620f79a"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
