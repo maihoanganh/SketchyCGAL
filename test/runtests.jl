@@ -36,7 +36,7 @@ R = UInt16(10) # rank/sketch size parameter
 maxit = UInt64(1e4) # limit on number of iterations
 
 
-include("./src/SketchyCGAL.jl")
-using .SketchyCGAL
+
+using SketchyCGAL
 
 @time obj, U, Delt = SketchyCGAL.CGAL(n,Primitive1,Primitive2,Primitive3, a, b, R, maxit;STOPTOL=1e-3);
