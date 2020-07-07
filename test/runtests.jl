@@ -10,7 +10,7 @@ using SparseArrays
 
 
 #call weight matrix from GSET
-file = matopen("./GSET/g1.mat")
+file = matopen("../GSET/g1.mat")
 Problem=read(file, "A")
 close(file)
 
